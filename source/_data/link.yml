@@ -1,0 +1,23 @@
+- class_name:
+  class_desc:
+  link_list:
+    - name: Gallaudet University
+      link: https://gallaudet.edu/
+      avatar: /images/Logo/GU_Logo.jpg
+      descr: There is no other place like this in the world
+
+- class_name: GU Social Media
+  class_desc: Follow and Subscribe!
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/channel/UCAbFXOPq0sx03ev-kO3FE2A
+      avatar: https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png
+      descr: Connect. Discover. Influence.
+    - name: Facebook
+      link: https://www.facebook.com/gallaudetu/
+      avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png
+      descr: Gallaudetu  · College & university
+    - name: My Gallaudet
+      link: https://apps.apple.com/us/app/my-gallaudet/id1548191862
+      avatar: /images/Logo/GU_Logo_IOS.jpg
+      descr: Your personalized feed of college activity.

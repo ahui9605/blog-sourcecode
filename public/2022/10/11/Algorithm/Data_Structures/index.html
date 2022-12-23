@@ -1,0 +1,292 @@
+<!DOCTYPE html><html lang="default" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Data Structures | ahui9605's blog</title><meta name="author" content="Zehui Liu"><meta name="copyright" content="Zehui Liu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="ITS495 Special Topics Algorithms">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Data Structures">
+<meta property="og:url" content="http://ahui9605.github.io/2022/10/11/Algorithm/Data_Structures/index.html">
+<meta property="og:site_name" content="ahui9605&#39;s blog">
+<meta property="og:description" content="ITS495 Special Topics Algorithms">
+<meta property="og:locale">
+<meta property="og:image" content="http://ahui9605.github.io/images/Logo/Algorithm_Logo.jpg">
+<meta property="article:published_time" content="2022-10-11T04:00:00.000Z">
+<meta property="article:modified_time" content="2022-12-22T04:12:15.673Z">
+<meta property="article:author" content="Zehui Liu">
+<meta property="article:tag" content="Articles">
+<meta property="article:tag" content="Code">
+<meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ahui9605.github.io/images/Logo/Algorithm_Logo.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://ahui9605.github.io/2022/10/11/Algorithm/Data_Structures/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Data Structures',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-21 23:12:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">30</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/Categories/"><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/Links/"><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">ahui9605's blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/Categories/"><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/Links/"><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Data Structures</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-10-11T04:00:00.000Z" title="Created 2022-10-11 00:00:00">2022-10-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-12-22T04:12:15.673Z" title="Updated 2022-12-21 23:12:15">2022-12-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Algorithms/">Algorithms</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Data Structures"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h3 id="Data-Structure"><a href="#Data-Structure" class="headerlink" title="Data Structure"></a>Data Structure</h3><p>Definition: A data structure is a set of objects, relationships between objects, and a set of operations that can be applied to the set.<br>Examples of objects:</p>
+<div class="note modern"><p>numbers(int, double,…), strings, instances of classes(Cars, Customers,…), etc.</p>
+</div>
+<p>Examples of relationships:</p>
+<div class="note modern"><p>next, previous, left, right, up, down, etc.</p>
+</div>
+<p>Examples of operations:</p>
+<div class="note modern"><p>insert, search, delete, etc.</p>
+</div>
+<p>Examples of data structures:</p>
+<div class="note modern"><p>arrays, stacks, queues, heaps, trees, hash tables, …</p>
+</div>
+
+<h3 id="Arrays-and-Lists"><a href="#Arrays-and-Lists" class="headerlink" title="Arrays and Lists"></a>Arrays and Lists</h3><p>Array is a very basic data structure consisting of a set of similar objects, accessed by index.</p>
+<p>Advantages of arrays:</p>
+<ul>
+<li>effectively stored inside the computer, no overhead per object(no space is wasted).</li>
+<li>fast access(by the index) to all of its objects at O(1) time.</li>
+</ul>
+<p>Disadvantages of arrays:</p>
+<ul>
+<li>not completely dynamic (fixed size arrays)</li>
+<li>Insertion and deletion of an element in the array requires to shift O(n) elements on</li>
+<li>average, where n is size of the array.</li>
+</ul>
+<h4 id="Arrays-in-Python"><a href="#Arrays-in-Python" class="headerlink" title="Arrays in Python"></a>Arrays in Python</h4><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Program</button></li><li class="tab"><button type="button" data-href="#test4-2">Output</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">myArray = np.zeros(<span class="number">4</span>, dtype=<span class="string">&#x27;int32&#x27;</span>)</span><br><span class="line"><span class="comment">#creates an array of type int32, size 4, and initialize it to 0</span></span><br><span class="line">myArray[<span class="number">0</span>] = <span class="number">6</span></span><br><span class="line">myArray[<span class="number">1</span>] = <span class="number">7</span></span><br><span class="line">myArray[<span class="number">2</span>] = <span class="number">8</span></span><br><span class="line">myArray[<span class="number">3</span>] = <span class="number">9</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;myArray size is: &quot;</span>, myArray.size )</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, myArray.size, <span class="number">1</span>):</span><br><span class="line">    <span class="built_in">print</span>(myArray[i])</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><div class="note modern"><p>myArray size is: 4<br>6<br>7<br>8<br>9</p>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h4 id="Lists-in-Python"><a href="#Lists-in-Python" class="headerlink" title="Lists in Python"></a>Lists in Python</h4><p>In Python,  lists are very similar to arrays but they are implemented differently. </p>
+<p>Lists are dynamic, the size is not fixed and they can have more than one data type in the same list. Lists require overhead (in space and time).</p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Program</button></li><li class="tab"><button type="button" data-href="#test4-2">Output</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">List1 = [<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span> (<span class="number">0</span>, <span class="built_in">len</span>(List1)):</span><br><span class="line">    <span class="built_in">print</span>(List1[i])</span><br><span class="line"></span><br><span class="line">List1.append(<span class="number">20</span>)</span><br><span class="line">List1.insert(<span class="number">2</span>, <span class="number">40</span>)</span><br><span class="line">List1.remove(<span class="number">6</span>)</span><br><span class="line"><span class="built_in">print</span>(List1)</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><div class="note modern"><p>2<br>4<br>6<br>8<br>10<br>[2, 4, 40, 8, 10, 20]</p>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h4 id="Two-Dimensional-Arrays-in-Python"><a href="#Two-Dimensional-Arrays-in-Python" class="headerlink" title="Two-Dimensional Arrays in Python"></a>Two-Dimensional Arrays in Python</h4><p>In an n-dimensional array, the index of each element is an n-tuple of positive integer numbers. </p>
+<p>The most commonly used multidimensional array is the two-dimensional array where the index of each element is an ordered pain of positive integers. </p>
+<p>Two-dimensional arrays are also knowns as  tables or matrices. </p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Program</button></li><li class="tab"><button type="button" data-href="#test4-2">Output</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line">matrix = np.zeros((<span class="number">2</span>, <span class="number">3</span>), dtype=<span class="string">&#x27;int32&#x27;</span>)</span><br><span class="line"><span class="comment">#creates a matrix  of dimension 2, type int, and</span></span><br><span class="line"><span class="comment">#initialize it to 0&#x27;s</span></span><br><span class="line">matrix[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">3</span></span><br><span class="line">matrix[<span class="number">0</span>][<span class="number">1</span>] = <span class="number">4</span></span><br><span class="line">matrix[<span class="number">0</span>][<span class="number">2</span>] = <span class="number">5</span></span><br><span class="line">matrix[<span class="number">1</span>][<span class="number">0</span>] = <span class="number">6</span></span><br><span class="line">matrix[<span class="number">1</span>][<span class="number">1</span>] = <span class="number">7</span></span><br><span class="line">matrix[<span class="number">1</span>][<span class="number">2</span>] = <span class="number">8</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">        <span class="built_in">print</span>(matrix[i][j], end =<span class="string">&quot; &quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;matrix dimension is: &quot;</span>, matrix.ndim)</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><div class="note modern"><p>3 4 5<br>6 7 8<br>matrix dimension is:  2</p>
+</div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+
+<h3 id="Queues"><a href="#Queues" class="headerlink" title="Queues"></a>Queues</h3><p>A queue is a data structure that supports the operations:</p>
+<ol>
+<li>enqueue(x)// insert x into stack</li>
+<li>dequeue(x) // delete x from stack</li>
+</ol>
+<p><img src="/images/Algorithm/Queues1.png"></p>
+<div class="note modern"><p>A Queue helps to manage the data in the  First In First Out (FIFO) method.<br>In Queue, random access is not possible</p>
+</div>
+
+<p>A queue can be implemented  as a simple array or as a class.<br>To implement the operations of a queue, one can maintain two global indices: head, and tail.  </p>
+<p>The basic operations can be coded as follows:</p>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">Enqueue</button></li><li class="tab"><button type="button" data-href="#test4-2">Dequeue</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Procedure enqueue(Q, a)</span><br><span class="line">begin</span><br><span class="line">   tail = tail +1; </span><br><span class="line">   Q[tail] = a;</span><br><span class="line">end</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Procedure dequeue(Q)</span><br><span class="line">begin</span><br><span class="line">  head = head + 1; </span><br><span class="line">end</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<h4 id="Priority-Queues"><a href="#Priority-Queues" class="headerlink" title="Priority Queues"></a>Priority Queues</h4><p><img src="/images/Algorithm/Queues2.png"></p>
+<p><b>Example:</b> Suppose we have the following 6 jobs with their priorities:</p>
+<div class="note modern"><p>A-2, B-3, C-2, D-1, E-2, F-2 </p>
+</div>
+
+
+<p>Suppose these jobs are scheduled using a regular queue by performing the following operations:</p>
+<div class="note modern"><p>enqueue(A), enqueue(B), enqueue(E), enqueue(C), enqueue(D), enqueue(F) </p>
+</div>
+
+<p>Now suppose the jobs are processes by calling the dequeue operation.</p>
+<p>These jobs will be processes look like this: </p>
+<div class="note modern"><p>F - D - C - E - B - A</p>
+</div>
+
+
+
+<h3 id="Singly-Linked-Lists"><a href="#Singly-Linked-Lists" class="headerlink" title="Singly Linked Lists"></a>Singly Linked Lists</h3><p>A <b>linked list</b> is a linear data structure, in which the elements are not stored at contiguous memory locations. </p>
+<p>Every node of a singly-linked list contains  a value and a link to the next element.</p>
+<p><img src="/images/Algorithm/Linked_Lists.png"></p>
+<p><b>Example</b>: Supposed we want to store the following numbers in a singly-linked list:</p>
+<div class="note modern"><p>6, 8, 9, 12, 56, 78</p>
+</div>
+
+<p>Then we can store the information as (value, link) as follows:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#assuming that 0 represents a null link</span></span><br><span class="line">V[<span class="number">1</span>] = <span class="number">6</span>, L[<span class="number">1</span>] = <span class="number">2</span></span><br><span class="line">V[<span class="number">2</span>] = <span class="number">8</span>, L[<span class="number">2</span>] = <span class="number">3</span></span><br><span class="line">V[<span class="number">3</span>] = <span class="number">9</span>, L[<span class="number">3</span>] = <span class="number">4</span></span><br><span class="line">V[<span class="number">4</span>] = <span class="number">12</span>, L[<span class="number">4</span>] = <span class="number">5</span></span><br><span class="line">V[<span class="number">5</span>] = <span class="number">56</span>, L[<span class="number">5</span>] = <span class="number">6</span></span><br><span class="line">V[<span class="number">6</span>] = <span class="number">78</span>, L[<span class="number">6</span>] = <span class="number">0</span> </span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://ahui9605.github.io">Zehui Liu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://ahui9605.github.io/">https://ahui9605.github.io/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Articles/">Articles</a><a class="post-meta__tags" href="/tags/Code/">Code</a><a class="post-meta__tags" href="/tags/Python/">Python</a></div><div class="post_share"><div class="social-share" data-image="/images/Logo/Algorithm_Logo.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Structure"><span class="toc-text">Data Structure</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Arrays-and-Lists"><span class="toc-text">Arrays and Lists</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Arrays-in-Python"><span class="toc-text">Arrays in Python</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Lists-in-Python"><span class="toc-text">Lists in Python</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Two-Dimensional-Arrays-in-Python"><span class="toc-text">Two-Dimensional Arrays in Python</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Queues"><span class="toc-text">Queues</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Priority-Queues"><span class="toc-text">Priority Queues</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Singly-Linked-Lists"><span class="toc-text">Singly Linked Lists</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Zehui Liu</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="#">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
