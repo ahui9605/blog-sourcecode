@@ -6,8 +6,8 @@
       avatar: /images/Logo/GU_Logo.jpg
       descr: There is no other place like this in the world
 
-- class_name: GU Social Media
-  class_desc: Follow and Subscribe!
+- class_name:
+  class_desc:
   link_list:
     - name: Youtube
       link: https://www.youtube.com/channel/UCAbFXOPq0sx03ev-kO3FE2A

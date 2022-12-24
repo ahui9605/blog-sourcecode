@@ -3,7 +3,7 @@ title: Annotated Bibliography
 date: October 31, 2022
 tags:
   - Articles
-categories: STM403_Fall2022
+categories: STM403
 
 #阅读模式，右下角开启
 readmode: true

@@ -89,34 +89,9 @@
       
         <tags>
             
-            <tag> Accessibility </tag>
-            
             <tag> Exams </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Graduate School/Job Application</title>
-      <link href="/2022/12/14/STM403Senior_Capstone_Fall2022/GraduateSchoolApplication/"/>
-      <url>/2022/12/14/STM403Senior_Capstone_Fall2022/GraduateSchoolApplication/</url>
-      
-        <content type="html"><![CDATA[<h3 id="Cover-Letter"><a href="#Cover-Letter" class="headerlink" title="Cover Letter"></a>Cover Letter</h3><p>Interviewer Name<br>800 Florida Ave NE<br>Washington, D.C 20002<br>202-456-7890</p><p>Dear xxx,</p><p>I’m excited to apply for the intern technician position posted on Indeed.com as a semester term intern of the work done by the team at REU AICT. As a BS in Information Technology student at Gallaudet University, I’m confident that my diverse knowledge, experience in coding and problem solving, and meticulous attention to detail will make me an asset to the intern and class/personal project teamwork.</p><p>I assisted several more students in classes and on social media platforms such as StackoverFlow and Github. I was in charge of troubleshooting a wide range of technical issues for others, assisting with unexpected system errors, and installing a wide range of equipment. I was also constantly looking for new ways to learn new skills and gain experience by participating in various activities with people from all walks of life. With these kinds of experiences, I was able to adapt my approach to various problems and situations from various backgrounds, as well as their critical-thinking and ideas that differed from mine.</p><p>I also understand that [Company name] is looking for more interns and experienced employees to help with their production needs. The position of IT technician at [Company’s name] would be an exciting opportunity for me to apply my educational background and learn more about a growing industry.</p><p>I’ve attached my resume, which goes over my skills and educational background in greater detail. If you have any questions about my background and experiences, don’t be hesitate to contact me. Thank you very much for your consideration and time.</p><p>Sincerely.<br>Zehui Liu</p><h3 id="Job-Listing-and-Background-Research"><a href="#Job-Listing-and-Background-Research" class="headerlink" title="Job Listing and Background Research"></a>Job Listing and Background Research</h3><p>Interesting Job Position:</p><ol><li>Summer Technology Internship -Cooperate by GEICO at Chevy Chase, MD:</li><li>IT Systems Specialist Central Office located at Montgomery County Public Schools at Rockville, MD</li><li>Entry Level Developers locate at Mclean, VA of Diamond Pick Company</li><li>US Army Information Technology Specialist (FT) by Goarmy.com Spring Recruiting Center located at Silver Spring, MD</li><li>Entry Level Amazon Connect Engineer by Amazon at Bethesda, MD</li><li>Technical Analyst Internship/Entry Level by CGI Group, INC located at Fairfax, VA</li><li>Operational Compputer Systems Analyst (System Administrator) by National Security Agent located at Fort Meade, MD</li><li>IT Help Desk Analyst by Northern Virginia Community College located at Fairfax County, VA</li><li>Cyber Security Engineer, Enter Level by CGI Group, Inc located at Fairfax, VA</li><li>10 week Intern Program by USPS, work cross-functionally on projects, remotely.</li></ol><p>Summer Technology Internship -Cooperate by GEICO at Chevy Chase, MD:<br>GEICO is an insurance company, and its most popular insurance is auto insurance. With excellent customer service, GEICO has become one of the most popular and favorite insurance companies in the United States, as well as mine. I’ve had a lot of help from the agent with my vehicle issues over the last three years, So I’d like to take advantage of this opportunity to gain experience with their business management system and see how they could use it to serve people so that I can understand work as an entry level or internship developer.<br>A 10-week term internship during the summer of 2023, with the opportunity to take a quick look and view their professional technology solutions management by specialists mentoring and coaching. Individual and team assignments provide an excellent opportunity to develop and gain business-standard technical and project management experience, as well as communication skills. The qualifications are slightly higher than for other intern positions. It did require a cumulative GPA of at least 3.5, as well as the upload of my transcript for verification. Following the coursework, a fundamental understanding of some of the languages such as Java, .NET C#, or related work from a personal/past experience project is required.</p><h3 id="Resume"><a href="#Resume" class="headerlink" title="Resume"></a>Resume</h3><p>/&gt;</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STM403_Fall2022 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
+            <tag> Accessibility </tag>
             
         </tags>
       
@@ -134,7 +109,7 @@
       
       <categories>
           
-          <category> STM403_Fall2022 </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -152,16 +127,16 @@
     
     
     <entry>
-      <title>ITS395 Week14</title>
-      <link href="/2022/12/11/ITS395Accessibility_FALL2022/Week14_Assignment/"/>
-      <url>/2022/12/11/ITS395Accessibility_FALL2022/Week14_Assignment/</url>
+      <title>Graduate School/Job Application</title>
+      <link href="/2022/12/14/STM403Senior_Capstone_Fall2022/GraduateSchoolApplication/"/>
+      <url>/2022/12/14/STM403Senior_Capstone_Fall2022/GraduateSchoolApplication/</url>
       
-        <content type="html"><![CDATA[<ul><li>13.1 Compare WCAG 3.0 with WCAG 2.1 (C?)</li><li>13.2 Describe future possibilities of web accessibility standards (C?)</li></ul><p>The accessibility standard that is in effect right now is WCAG2.1. In addition, the WCAG2.2 will receive its final update some time before end of the year 2022. Accessibility for all disabled people is also required to catch up with the rapid advancement of technology in order to guarantee that all users will have full access to the internet’s vast resources. As a result, the members who work for the WCAG are currently developing the new standard known as WCAG 3.0. It was stated in one of the articles that the publication wouldn’t be considered official until 2023. The WCAG3.0 document is still in the stage of being a working draft, and additional new ideas or some functions still need to be revised and some changes made to them. The draft is available to be viewed online.</p><p>The newly developed standard will incorporate some features that are new, in addition to those that have been carried over from WCAG2.1. However, due to the fact that the standard changes from A, AA, and AAA to the number score. It is the number that ranges from the lowest possible score to the highest possible score on the standard, and its purpose is to provide a better description of how important and necessary it is to measure accessibility. It is more flexible, which allowed users and developers to have a better understanding of how to use the accessibility standard, and it also improved the accessibility of the product. Nevertheless, this is not the final decision, and the members are still discussing about it.</p><p>The readability will undergo significant revisions as a result of the fact that fully comprehending the WCAG2.x standard is not an easy task. Therefore, the members are considering to add the simplified symbols and letters, with a natural sense to ensure that those who are reading the WCAG for the first time can quickly understand what they are reading. It is possible to eliminate some superfluous contexts and reconstruct the category class, among other things.</p><p>The standard has also been made stricter, such that if one fatal had been made, even if it’s just one fatal mistake, the corresponding standard will drop down to a score of zero, and it will be marked as inaccessible.</p><p>In summary, it will be a great updated and improvement version of the WCAG standard for people who are disabled, with more features being added, as well as a revision of some of the unnecessary standards from the previous version of WCAG and the older version. Therefore, with this standard improvement, we should also spread the standard, ensure that almost all websites have sufficient accessibility, and enhance the browsing experience for people with disabilities.</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="Cover-Letter"><a href="#Cover-Letter" class="headerlink" title="Cover Letter"></a>Cover Letter</h3><p>Interviewer Name<br>800 Florida Ave NE<br>Washington, D.C 20002<br>202-456-7890</p><p>Dear xxx,</p><p>I’m excited to apply for the intern technician position posted on Indeed.com as a semester term intern of the work done by the team at REU AICT. As a BS in Information Technology student at Gallaudet University, I’m confident that my diverse knowledge, experience in coding and problem solving, and meticulous attention to detail will make me an asset to the intern and class/personal project teamwork.</p><p>I assisted several more students in classes and on social media platforms such as StackoverFlow and Github. I was in charge of troubleshooting a wide range of technical issues for others, assisting with unexpected system errors, and installing a wide range of equipment. I was also constantly looking for new ways to learn new skills and gain experience by participating in various activities with people from all walks of life. With these kinds of experiences, I was able to adapt my approach to various problems and situations from various backgrounds, as well as their critical-thinking and ideas that differed from mine.</p><p>I also understand that [Company name] is looking for more interns and experienced employees to help with their production needs. The position of IT technician at [Company’s name] would be an exciting opportunity for me to apply my educational background and learn more about a growing industry.</p><p>I’ve attached my resume, which goes over my skills and educational background in greater detail. If you have any questions about my background and experiences, don’t be hesitate to contact me. Thank you very much for your consideration and time.</p><p>Sincerely.<br>Zehui Liu</p><h3 id="Job-Listing-and-Background-Research"><a href="#Job-Listing-and-Background-Research" class="headerlink" title="Job Listing and Background Research"></a>Job Listing and Background Research</h3><p>Interesting Job Position:</p><ol><li>Summer Technology Internship -Cooperate by GEICO at Chevy Chase, MD:</li><li>IT Systems Specialist Central Office located at Montgomery County Public Schools at Rockville, MD</li><li>Entry Level Developers locate at Mclean, VA of Diamond Pick Company</li><li>US Army Information Technology Specialist (FT) by Goarmy.com Spring Recruiting Center located at Silver Spring, MD</li><li>Entry Level Amazon Connect Engineer by Amazon at Bethesda, MD</li><li>Technical Analyst Internship/Entry Level by CGI Group, INC located at Fairfax, VA</li><li>Operational Compputer Systems Analyst (System Administrator) by National Security Agent located at Fort Meade, MD</li><li>IT Help Desk Analyst by Northern Virginia Community College located at Fairfax County, VA</li><li>Cyber Security Engineer, Enter Level by CGI Group, Inc located at Fairfax, VA</li><li>10 week Intern Program by USPS, work cross-functionally on projects, remotely.</li></ol><p>Summer Technology Internship -Cooperate by GEICO at Chevy Chase, MD:<br>GEICO is an insurance company, and its most popular insurance is auto insurance. With excellent customer service, GEICO has become one of the most popular and favorite insurance companies in the United States, as well as mine. I’ve had a lot of help from the agent with my vehicle issues over the last three years, So I’d like to take advantage of this opportunity to gain experience with their business management system and see how they could use it to serve people so that I can understand work as an entry level or internship developer.<br>A 10-week term internship during the summer of 2023, with the opportunity to take a quick look and view their professional technology solutions management by specialists mentoring and coaching. Individual and team assignments provide an excellent opportunity to develop and gain business-standard technical and project management experience, as well as communication skills. The qualifications are slightly higher than for other intern positions. It did require a cumulative GPA of at least 3.5, as well as the upload of my transcript for verification. Following the coursework, a fundamental understanding of some of the languages such as Java, .NET C#, or related work from a personal/past experience project is required.</p><h3 id="Resume"><a href="#Resume" class="headerlink" title="Resume"></a>Resume</h3><p>/&gt;</p>]]></content>
       
       
       <categories>
           
-          <category> Accessibility Research </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -169,116 +144,6 @@
         <tags>
             
             <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week13</title>
-      <link href="/2022/12/10/ITS395Accessibility_FALL2022/Week13_Assignment/"/>
-      <url>/2022/12/10/ITS395Accessibility_FALL2022/Week13_Assignment/</url>
-      
-        <content type="html"><![CDATA[<p>Fall Break, No Assignment</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week12</title>
-      <link href="/2022/12/04/ITS395Accessibility_FALL2022/Week12_Assignment/"/>
-      <url>/2022/12/04/ITS395Accessibility_FALL2022/Week12_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>12.1 Identify corporate approaches to implementing web accessibility (C?)</li><li>12.2 Describe the challenges for implementing web accessibility (C?)</li></ul><p>The majority of nations have enacted legislation that safeguard the civil rights of disabled people in homes, parks, businesses, and educational institutions. Access to websites and applications hosted on the internet is not universal. But for now It had been done for a long time ago by the federal and government department where involved with lots of disabled employees and more diversity of disabled employees, the accessibility has been adding more over the course of the last two decades. However, certain rules, such as the Americans with Disabilities Act and Section 508, do not apply to the internet services in question, which include video streaming as well as social media websites and applications. These apps and web were supposed to be an efficient means of communication, making it possible for all of the information to be made available to everyone. However, these businesses have a tendency to block off those people who have disabilities since they believe there are only a small number of them, and because the world is still dominated by people who can hear, this does not have a significant impact on many things. These businesses simply concentrate on any kind of features they may add and hope to attract more customers who are hearing</p><p>One example of a private company that was brought up during our conversation is Twitter, whose management recently passed to Elon Musk, CEO of Tesla, an electric vehicle manufacturing company. The recent events, such as firing off those individuals who worked in Twitter when it had over 7,000 employees and now has only a few hundreds of employees, are highly regrettable and unacceptable. Elon Musk’s actions had a significant impact on a variety of departments, most notably the accessibility engineering team, which had been laid off. This team was responsible for helping to make the website usable for people with disabilities, particularly those who struggle with sensory challenges, mobility issues, and visual or auditory impairment. It is a sign that Twitter may stop providing its users with access to the newest and most cutting-edge features in the future.</p><p>Therefore, one approach that may be taken is to consider how to persuade them or inform everyone else that the accessibility of websites and apps is a requirement that must be met in order to add features at all times. One potential obstacle is the amount of time. The corporation will need to carry out a number of different tests on the product and use the services of a few specialists. After that, the group will proceed to follow the evaluation to determine what issues are present with the product and make more tweaks and adjustments.</p><p>The fact that the company always has a restricted budget for the product means that it must eliminate elements that aren’t really necessary in order to concentrate on the aspects that are essential. Another problem is the money. A potential option in which businesses might receive financial support from the government, allowing those businesses to implement and expand the majority of accessibility features.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week11</title>
-      <link href="/2022/11/13/ITS395Accessibility_FALL2022/Week11_Assignment/"/>
-      <url>/2022/11/13/ITS395Accessibility_FALL2022/Week11_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>11.1 Identify various types of accessibility law (C?)</li><li>11.2 Analyze how accessibility laws are interpreted (C?)</li></ul><h3 id="Americans-with-Disabilities-Act-ADA"><a href="#Americans-with-Disabilities-Act-ADA" class="headerlink" title="Americans with Disabilities Act(ADA)"></a>Americans with Disabilities Act(ADA)</h3><p>In employment, state and local government, public accommodations, commercial facilities, transportation, and telecommunications, the Americans with Disabilities Act (ADA) makes it illegal to discriminate against disabled people based on their condition. It is also applicable to the Congress of the United States.<br>To be eligible for protection under the ADA, a person must either themselves have a disability or maintain a relationship or association with another person who does. According to the Americans with Disabilities Act (ADA), a person is considered to have a disability if they either have a physical or mental impairment that significantly inhibits one or more of the major life activities, if they have a history or record of having such an impairment, or if they are perceived by other people to have such an impairment. However, The Americans with Disabilities Act (ADA) does not identify each and every impairment that it protects.</p><h3 id="Telecommunication-Act"><a href="#Telecommunication-Act" class="headerlink" title="Telecommunication Act"></a>Telecommunication Act</h3><p>Manufacturers of telecommunications equipment and providers of telecommunications services are required, according to Section 255 and Section 251(a)(2) of the Communications Act of 1934, as amended by the Telecommunications Act of 1996, to ensure that such equipment and services are accessible to and usable by individuals with disabilities, if it is readily achievable to do so. These provisions were added to the Communications Act in 1996. Because of these amendments, people who have disabilities will be able to access a wide variety of products and services, such as telephones, cell phones, pagers, call-waiting, and operator services, which were previously inaccessible to a large number of users with disabilities.</p><h3 id="Rehabilitation-Act-Section-508"><a href="#Rehabilitation-Act-Section-508" class="headerlink" title="Rehabilitation Act; Section 508"></a>Rehabilitation Act; Section 508</h3><p>The requirements that are outlined in Section 508 apply to any and all forms of electronic and information technology that are created, maintained, purchased, or used by the federal government. People with disabilities, including federal employees and members of the general public, are required to have access to all electronic and information technology used by the federal government in accordance with Section 508.<br>An accessible information technology system is one that does not rely on the user’s singular sense or ability in any way and can be operated in a variety of different ways by the user. For instance, people who have visual impairments may not be able to use a system that only provides output in the form of images, and people who are deaf or hard of hearing may not be able to use a system that only provides output in the form of sounds if the system only provides output in the form of sounds. It’s possible that some people with disabilities will require accessibility-related software or peripheral devices in order to use computer systems that are in compliance with Section 508.</p><p>Since each state is responsible for the enforcement of its own laws, it would appear that the federal laws do not apply to the states. It is possible that some of the accessibility measures taken by states are inadequate, and as a result, they are inaccessible.<br>And vice versa, certain states had very detailed information that explained which part of the disabilities should be applicable in a variety of different possible situations. One such example is the law 18VAC135-50-200 of the state of Virginia. Prohibitions against discrimination on the basis of disability at the general level. It provided an explanation of what the terms of the disabilities are as well as the</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week10</title>
-      <link href="/2022/11/06/ITS395Accessibility_FALL2022/Week10_Assignment/"/>
-      <url>/2022/11/06/ITS395Accessibility_FALL2022/Week10_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>10.1 Describe the history of WAI-ARIA development (C?)</li><li>10.2 Implement a working WAI-ARIA (C?)</li></ul><p>For digital accessibility, the screen reader technology includes a variety of different pieces of equipment, such as braille writers, scanning equipment, and other screen readers. I will browse the website using the keyboard and act as though I am blind so that I can use the screen reader to test the website’s digital accessibility: web accessibility auditing showcase.<br>After installing and setting up the extension and the integrated function screen reader that comes with the Edge browser, and then I will use the keyboard to interact with the content that is displayed on the webpage. In addition to that, I had tried out a few of the things, such as the PDF and the image gallery. The Read aloud option of the Edge browser allows for text on the screen to be read out loud. Due to the fact that I am hard of hearing and use a cochlear implant, the speaking is not always very clear to me. As a result, I had to use the voice to text recognition apps on my phone in order to have a more positive experience when using the screen reader.<br>And I had try all of the content in the website:</p><ul><li>Left side menu: It is first not obvious to me since the left side menu is supposed to be the last part of the webpage, but it appears to give me the impression that the left side menu is the first portion of the webpage. However, I do not object to it and do not find it objectionable in any way.</li><li>Carousel at the top of the content area of the page: It performs a good job of displaying the text and provides a concise explanation of each image, which allows me to imagine what the image would seem like to someone who is blind.</li><li>Accordion on the right: excellent and user-friendly in directing me through each drop-down menu and allowing me to read the contents.</li><li>Tab panel in the centre of the page: In the poor example, the tab does not make sense to me, whereas in the excellent example, it functions perfectly, and I have no trouble understanding any of the content.</li></ul><p>Landmarks present on the page(list them): <mark class="hl-label blue">h1</mark>  such as web accessibility auditing showcase, Home, <mark class="hl-label blue">h2</mark>  like bad example, and good example and useful resources. The html code for each page contained headings labeled “h1,” “h2,” “h3,” and so on. Because of this, whenever there is text on a page that does not particularly interest me, I can just skip the “h2” and “h3” headings and go straight to the “h1” heading for the next section of the page.</p><p>During this activity, I only spent ten minutes exploring the homepage of the web accessibility auditing showcase website. I spent an additional five minutes trying to learn and get the hang of using the screen reader with a number of different keyboard input functions; however, I am now able to use the screen reader to access the most fundamental input functions.</p><p>And I think it is a little bit inefficient for both me and also for blind people, because it seems impossible to let blind users see and know all of the content in a very short amount of time; it is a little bit inefficient for blind people. so I think people should work on improving that aspect of it. The screen reader application itself is quite useful, however more developers need to be made aware that ARIA compliance is essential for all websites.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
             
         </tags>
       
@@ -296,7 +161,7 @@
       
       <categories>
           
-          <category> STM403_Fall2022 </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -304,60 +169,6 @@
         <tags>
             
             <tag> Articles </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week9</title>
-      <link href="/2022/10/30/ITS395Accessibility_FALL2022/Week9_Assignment/"/>
-      <url>/2022/10/30/ITS395Accessibility_FALL2022/Week9_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>9.1 Identify the aspects of a screenreader (C?)</li><li>9.2 Evaluate a website using a screenreader (C?)</li></ul><p>The primary objective of the screen reader is to deliver as many messages as possible to the user. This objective applies regardless of the user’s ability level; typical users as well as those with disabilities are able to use the screen reader at any given time and in any given circumstance. And the vast majority of people who use the screen reader are either blind, low-vision, or both blind and low-vision users. It gives the feedback, and the information that is being read is being supplied under the control of the user.</p><p>The Text-to-Speech (TTS) function is one that may be used, and it can convert the information that is displayed on the screen into speech, which can be played through headphones or speakers. The TTS reader may take the form of a software program that is bundled together with the screen reader, or it may take the form of a hardware device that is plugged into the computer. It is also possible to offer information in Braille; however, in order to do so, an additional hardware device known as a refreshable Braille display is necessary, and this will necessitate the use of that device. There can be anywhere from one to several rows of cells in a refreshable Braille display. Each cell has the potential to take the form of a Braille character, which is made up of a succession of dots arranged in a pattern that is analogous to that of domino dots.</p><p>The Braille characters on the display will update to reflect the new information as it appears on the computer screen. This will provide users with up-to-date information that comes directly from the computer. While it is feasible to use each format on its own, most people prefer to use PDFs. Speech output and braille output are two forms of output that are frequently used together.</p><p>The popular operating systems, including those found on personal computers and mobile phones, are compatible with screen readers:</p><ul><li>Windows: Window Eyes</li><li>Apple(iOS and MacOS): Voice Over</li><li>Android: TalkBack</li></ul><p>These are the applications that come pre-installed on the computer and can be used by the user without the need to install anything else. The user may also use third-party software such as Jaws for Windows, but this is entirely up to their discretion.</p><p>I’m going to test out a website called Google Drive by using the screen reader that comes installed on my iPhone, which is called VoiceOver. Once I’m logged in, I’ll use the screen reader to go through some folders and files. After spending around half an hour to studying and familiarizing myself with VoiceOver and its various features, I have the following results:</p><ul><li>I was able to successfully log in to my Google Drive account, which required me to enter my email address and password. This step took me around five minutes, during which time I had to type each letter or number individually. Which is not very comfortable for me to use, and it is highly ineffective, but I believe that users with low eyesight or no vision at all require this.</li><li>After I have logged into my Google Drive account, the user interface can be confusing at times because I tend to read from the top left to the bottom right. However, the design of the interface is intended for users with normal vision, which makes it difficult for blind users to use. Additionally, the interface contains a lot of complicated information, which blind users are unable to remember in a short amount of time, which requires them to go back and read it again.</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week8</title>
-      <link href="/2022/10/28/ITS395Accessibility_FALL2022/Week8_Assignment/"/>
-      <url>/2022/10/28/ITS395Accessibility_FALL2022/Week8_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>8.1 Identify different methods of evaluating web accessibility (C?)</li><li>8.2 Identify the components of a formal web evaluation report (C?)</li></ul><p>There are various methods that may be used to evaluate the accessibility of the website; however, the most frequent method is for me to experiment on my own and utilize the information that I have acquired up to this point to test the website to determine if it is accessible enough for me. But it does not effective enough. Because there is a huge amount of accessibility that needs to be tested, and because working on it necessitates a significant amount of time. So that we may use the tool, an excellent example of which is a tool called AXE accessibility DevTools. This tool is based on the WCAG, and it can assist us in determining which component of the website is not accessible. A programmable plugin like this one can be installed in the browser. Given that it is intended for the developer, they will need to manually enable it after going into the web developer page and doing so. Only then will the accessibility be checked. It is a really simple procedure, and all you need is a little bit of time to become acquainted with the information that they include.</p><p>It had helped a lot of institutions achieve the digital accessibility goals, such as retailers, airlines, hotel chains, and the government. It is free to use for the individual, but with limitation functions; therefore, it provides the Axe DevTools Pro and Enterprise version, which includes details about the accessibility with higher standards.</p><p>Following the completion of the website evaluation, we will need to provide a summary of what we discovered while analyzing the targeted website and explain the problem. A specialized report is born, and it is created by the specialist that is knowledgeable on accessibility, and they will analyze the websites that are the focus of their investigation and evaluate them. Find out some of the problems that exist, and then write a report about their experience using the internet, including an evaluation report, the criteria, a conclusion, and a recommendation.<br>After delivering the report to the developer, the accessibility specialist might be required to collaborate with the developer in order to determine what the most fundamental and fundamentally important accessibility standards are. This would come after the specialist had already given the developer the report. The professional will act as a consultant to advise them on how to make improvements to the website in question.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
             
         </tags>
       
@@ -382,36 +193,9 @@
       
         <tags>
             
+            <tag> Accessibility </tag>
+            
             <tag> Quizzes </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week7</title>
-      <link href="/2022/10/16/ITS395Accessibility_FALL2022/Week7_Assignment/"/>
-      <url>/2022/10/16/ITS395Accessibility_FALL2022/Week7_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>7.1 Describe the types of assistive technology (C?)</li><li>7.2 Describe the process of testing for accessibility (C?)</li></ul><p>Assistive technology is a broad term that can refer to a variety of different things. For example, it can refer to mobility devices like walkers and wheelchairs that enable people with disabilities to be able to do something by using the mobility device. It can also refer to certain pieces of hardware and software that help people with disabilities access computers and other information technologies such as accessibility for website, the software had integrated functions that allow user to set up their accessible preference. In this week, we were discussed and concentrated on the assistive technology for reading pdf files and how it can be used and set up for those who require accessibility in order to read pdf information.</p><p>There are many different kinds of assistive technology that can be used on pdf file. One of the most common features is magnifiers, which enable the user to make the texts and images larger for those who have limited vision. Screen reading functions allow a computer to “speak out” for blind users by reading information and words one at a time. It may be difficult for some people to use all of the information contained within a PDF due to the complicated layouts that may be included in some PDFs. Therefore, the significance of content ordering is the primary worry, and it is necessary to add more tags and a number order in order to concentrate on a certain piece of content at one time only. It is required that images of alternative text also be included, and if it is necessary, the decorating images should be removed and there are many more functions that may be used, depending on what situation is needed.</p><!-- ![](/images/ITS395/inaccessible_pdf.jpg "Inaccessiable Image-Based PDF") --><img src="/images/ITS395/inaccessible_pdf.jpg" class="" width="480" height="521" title="Inaccessiable Image-Based PDF"><p>The accessibility testing by an expert or anyone who had the capacity knowledge of accessibility is the necessary step that needs to be done in order to ensure that the fundamental functionalities will be available for use in pdf format.</p><p>These experts will be of assistance and will determine whether or not the PDF is accessible by the majority of users. This week in class, Our professor demonstrated how to utilize a piece of software called Adobe Acrobat DC. One of the built-in features that made it possible for the pdf editor to update and adjust the accessibility of the document. In addition to that, it had the capabilities to test the PDF to see if it met the requirements for basic usability.</p><!-- ![](/images/ITS395/AccReport.jpg "Adobe Acrobat PDF Accessibility Test Report") --><img src="/images/ITS395/AccReport.jpg" class="" width="797" height="954" title="Adobe Acrobat PDF Accessibility Test Report">]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
             
         </tags>
       
@@ -458,7 +242,7 @@
       
       <categories>
           
-          <category> STM403_Fall2022 </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -466,60 +250,6 @@
         <tags>
             
             <tag> Articles </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week6</title>
-      <link href="/2022/10/09/ITS395Accessibility_FALL2022/Week6_Assignment/"/>
-      <url>/2022/10/09/ITS395Accessibility_FALL2022/Week6_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>6.1 Describe the features of an accessible website (C?)</li><li>6.2 Describe how the web browser supports web accessibility (C?)</li></ul><p>It is contingent on the website itself wanting what kind of accessibility, the WCAG2.1 showed numerous accessibility elements and allowed developers to design following them, but the type of accessibility desired is dependent on the website itself. However, it appears unfeasible to allow every website to have the same accessibility characteristics as those stated in WCAG2.1. Therefore, some of the content on the website needs to contain the basic elements of use for persons with disabilities, whether those disabilities involve the senses, the mind, or the body.</p><p>It is a standard procedure, and it is also one of the easiest methods, to provide alternative text for individuals who are visually impaired. Some of the images that are used for decoration on the website may be excluded by hiding them using CSS code. Since these images are only used for decoration, removing them will result in a slight shift in the visual presentation, but the text content itself will not change. CSS can use it as:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.classname</span>&#123;<span class="attribute">display</span>:none;&#125;</span><br></pre></td></tr></table></figure><p>The name that is assigned from an HTML text is called <mark class="hl-label blue">.classname</mark> , and it can be used to name any photos or material.</p><mark class="hl-label blue">display:none</mark>  is used to hide the image in the browser; however, the content itself continues to exist and is saved in the HTML and CSS file. This material can be revealed at any moment by changing the layout's none property to either <mark class="hl-label blue">block</mark> , <mark class="hl-label blue">inline</mark> .<p>the following additional essential images are required to accompany the alt text:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;presentation.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot; A google slide has the topic named Presentation written in the middle of the slide and an author&#x27;s name John Doe in the bottom left corner of the slide.&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>This needs to be very particular and describe as much as is reasonably possible, and then convert those pictures into plain words to describe the vivid picture as best as possible without adding a lot of extra characters or effort.</p><p>Users who are colorblind have a requirement for the addition of high contrast and color; browser extensions provide the tools necessary to force the website backdrop or any sensitive color to the color that works best for you. Alternately, we can achieve it by adjusting the colors as necessary through the use of CSS. PSA offered developers with visual examples of what doing this for colorblind people looks like and also include the WCAG2.1 result so that developers can determine whether or not a photo or image is suitable for colorblind users.</p><p>Adjusting the font size and ensuring that the layout is well-fitted in the browser on both the computer and the mobile phone are also important for those individuals who have difficulty reading. These individuals find it difficult to keep track of what the content is about, and they require being in a concise place in order to follow the follow of the content because there is a lack of whitespace and clear linear pathways. To remedy this problem, we should steer clear of any repetitive or redundant texts and decorations as well as slash line reading text and information. Additionally, we should strive to be more straightforward, and we should alter the font text size appropriately.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week5</title>
-      <link href="/2022/10/08/ITS395Accessibility_FALL2022/Week5_Assignment/"/>
-      <url>/2022/10/08/ITS395Accessibility_FALL2022/Week5_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>5.1 Describe web accessibility features for users with motor challenges (C?)</li><li>5.2 Describe web accessibility features for users with cognitive challenges (C?)</li><li>5.3 Describe web accessibility features for users with mental health challenges (C?)</li><li>5.4 Describe web accessibility features for elderly users (C?)</li><li>5.5 Describe web accessibility features for low-literacy users (C?)</li><li>5.6 Describe web accessibility features for users with motion sensitivities (C?)</li></ul><p>This week, we are focusing primarily on the types of accessibility features for users with varying physical disabilities. The accessibility features that we require to create it uniquely for each individual or to optimize its features. To determine which accessibility option is optimal for them. We must comprehend the nature of their infirmities.<br>Motor Disability refers to any disorder that hinders sensation, movement, or coordination. These disabilities can originate from a variety of causes, including congenital diseases, illnesses, and physical trauma, but they typically present similar obstacles to web browsing.</p><p>Possible well-fitted accessibility for physical injuries and impairments:</p><ul><li>Cerebral palsy is a damage to the brain that causes a loss of muscle control.</li><li>Muscular dystrophy is a hereditary condition that affects the genes that regulate the creation of muscle protein.</li><li>Back Spine, partly congenital disorder in which the spine fails to fully wrap around the spinal cord during the first trimester of pregnancy, resulting in some loss of physical movement.</li></ul><p>Some assistive devices can give an acceptable or above-average level of accessibility. Head wands and mouth sticks, which go over the head or into the mouth and extend toward a control interface, are a common form of assistive technology.</p><p>The user can manage an adaptive computer mouse, keyboard, or other assistive equipment by manipulating a wand or stick with their neck and jaw muscles. Additionally, there is the adaptable keyboard. Word-completion technology and elevated spaces between keys that allow users to rest their hands in position when not typing or during muscle spasms may be included. Those with minimal or no hand control may benefit from eye-tracking gadgets, which allow them to use eye movement to navigate the web. Different forms of accessibility tools are evolving and being applied to everyone; what we need to do is give them with a better web-using experience, possibly extending to other areas of use.</p><p>Cognitive problems typically have a negative impact on the way information is processed. A wide variety of aspects, such as people’s perceptions, memories, languages, attention, ability to solve problems, and comprehension levels. People will be able to have a better experience and more opportunities to connect with content. Additionally, they will be able to process information in ways that are more useful to them thanks to the technology. In order to provide those who have cognitive or learning disabilities with the best possible user experience, it is a good idea, for instance, to direct them to simplified web material that provides them with the option to access information in both text and audio form.</p><p>People need to get started working on this area of study in order to find a solution to the significant problem of limited accessibility of mental health user services. The majority of the research and study is focused on how to improve the online content so that people who use it for mental health purposes can locate resources on the site that will help them relieve their stress and anxiety. Nonetheless, there is a certain aspect of access such as the special features only designed to mental health user is still not applicable to be use.</p><p>A user is said to have non-literacy or illiteracy if they are incapable of reading and comprehending the intricate or profound meaning of the language they use. The simple text, accompanied by graphics that help to visualize it, or a brief movie that contains as little words as possible but yet conveys the information effectively may be one way to help them grasp it better.</p><p>People of a greater age certainly experienced a loss of body function, which may also entail a loss of physical function. Do provide the accessibility, such as simple interaction with the website, alternatives for increasing the text size with only the click of a button, and the ability to alert them with a larger feedback reflection.</p><p>Users with a high sensitivity to motion risk experiencing discomfort or even physical injury from interactions with moving objects. So in order to accommodate motion-sensitive users, both CSS and iOS 7 have included a function that allows users to turn off unwanted motion.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
             
         </tags>
       
@@ -537,7 +267,7 @@
       
       <categories>
           
-          <category> STM403_Fall2022 </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -562,7 +292,7 @@
       
       <categories>
           
-          <category> STM403_Fall2022 </category>
+          <category> STM403 </category>
           
       </categories>
       
@@ -594,117 +324,9 @@
       
         <tags>
             
+            <tag> Accessibility </tag>
+            
             <tag> Quizzes </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week4</title>
-      <link href="/2022/09/25/ITS395Accessibility_FALL2022/Week4_Assignment/"/>
-      <url>/2022/09/25/ITS395Accessibility_FALL2022/Week4_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>Describe vision-related challenges in web accessibility that users face.</li><li>Identify web accessibility tools or approaches that benefit users with vision challenges.</li><li>Analyze the effectiveness of WCAG 2.1 in measuring accessibility for blind users.</li></ul><p>According to the statistics, around 285 million people worldwide are visually impaired. 39 million individuals are blind, while 246 million have impaired eyesight. There are numerous types of visually impaired individuals for whom it is important to provide easier online access or browsing. WCAG2.1 has introduced a requirement for individuals with low vision, describing what individuals with low vision require for electronic information, tools, and technology to be accessible. Includes an overview of low vision and a description of specific user requirements. Therefore, it is in excellent condition for blind users.</p><p>The WCAG2.1 specified multiple levels, including hardware, operating system, user agents, extensions, and plug-ins. They had to add as many things as possible to ensure that blind individuals could access everything. The following are concerns that I believe blind users are now having and that need to be resolved immediately:<br>HTML structure: the majority of famous websites now provide basic and advanced accessibility for people with disabilities. One feature that can be used is the screen reader, which can detect and read the CSS of a page, but this feature will need to be added and supported on third-party websites. Others relied on unstyled HTML, which causes problems when the screen reader determines what should be read first on a page. To overcome this problem, all HTML should be formatted similarly to a printed page, such that it makes sense when read from left to right, top to bottom. The routine update from the developer must include these changes for the screen reader to function properly.</p><p>The lack of color contrast between text and backgrounds is one of the most common accessibility issues. Color contrast is a fundamental component of online accessibility since it aids users in perceiving page information. WCAG 2 defines contrast as the difference in luminance between two colors. Persons with limited contrast sensitivity, such as the elderly, or colorblind people may not be able to distinguish between text and backdrop of specific colors with a low contrast ratio. Popular browsers include built-in functions that allow the user to force a certain hue to the desired intensity level.</p><p>People with visual impairments frequently find it difficult or impossible to use a mouse to surf a website; thus, they navigate using the keyboard. Those with visual impairments can navigate a website using keyboard shortcuts and commands. A website must have well-structured content with proper header structures and be coded to permit keyboard access to all information and functionality, including hyperlinks, links, forms, and media controls. Users would utilize the Tab key to navigate the page, and while they do so, there must be a visual keyboard focus indicator indicating the element they are on. Essential functions that must be provided on every website.</p><p>There are still a great number of potential approaches that could lead blind users to browse sites that are inaccessible or that do not provide sufficient accessibility. This has to be done with a large number of volunteers and experiments for blind people in order to make things more accessible for them.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week3</title>
-      <link href="/2022/09/18/ITS395Accessibility_FALL2022/Week3_Assignment/"/>
-      <url>/2022/09/18/ITS395Accessibility_FALL2022/Week3_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>Describe web accessibility challenges that deaf users face.</li><li>Identify web accessibility tools and approaches that benefit deaf users.</li></ul><p>To understand what challenges deaf people faced, we must first understand what deaf is and why they are deaf, how they need accessibility due to their deaf disability, and where we can apply those accessibility on deaf users in a proper situation, such as in person accessibility or virtual online accessibility.</p><p>Deaf is an adjective word used to describe someone who lacks the ability to hear or has impaired hearing, according to the dictionary. It is a physical condition in which the person is unable to collect information through their ears. Deafness can be caused by a variety of factors, including aging hearing loss, genetic factors when they were born, or a specific medicine that led them to become deaf. So, accessibility is to guide or provide an easy route for them to rapidly comprehend what they need and how people may help them.</p><p>Accessibility is not exclusively for the deaf; it is a subset of accessibility for deaf users; there are many more ways to assist persons with disabilities. So, this sort of accessibility sometimes necessitates a certain amount of money to develop into a perfect form for deaf users to acquire what information they want on specific situations. However, the information they get is still slower than that of hearing people since it takes more time, more equipment, more technology to obtain, whereas hearing people can simply communicate to one other. It is also critical to design the computer’s interface with humans, which is the designer’s primary focus to lead the deaf user to use the accessibility function on website. Some low quality audio, lack in interpretation for text, audio and video and limited customer support options such as telephone for contacting the bank agent to process order and more are all the fatal problem on deaf. Some poor design website do not have enough of budget to develop those functions caused the deaf user were unable to access.</p><p>The bulk of accessibility functions, as well as a highly popular tool, are captions, which enable the transcription or translation of spoken language in streaming or another live video. It is popular because it may nearly always apply to everyone: hearing, hard of hearing, and hearing loss. They can be beneficial to everyone. Hearing people may be able to read the captions if they hear something but are unsure what it is, or if they missed parts of the speaking. For those who are deaf or hard of hearing could be able to read the captions to understand what it is speaking.</p><p>Another popular feature is live chat, which is a tiny window on the left or right side of the website that allows consumers to contact agents without having to call them. This sort of feature is also very useful for deaf users. As a result, deaf users are more likely to use text-based communication as a secondary compromise technique, whereas ASL is more likely to be used as their first language. The plain English with short sentences is essential, as is staying on point and avoiding jargon or rarely used English work. If required, a graphic to illustrate the topic or anything is also a terrific idea that would aid deaf users greatly.</p><p>There are also more features that may be implemented, such as ASL video for visual interpretation; but, in order to give the proper message, a very skilled certificated interpreter is required. A transcript, which comes with a page or more of text with everything they’ve spoken on it, is also an option. These things must be adaptable and organize in order to navigate the information they get.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week2</title>
-      <link href="/2022/09/11/ITS395Accessibility_FALL2022/Week2_Assignment/"/>
-      <url>/2022/09/11/ITS395Accessibility_FALL2022/Week2_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>2.1 Describe the history of WCAG</li><li>2.2 Identify any criticism of WCAG</li></ul><p>The Web Content Accessibility Guidelines (WCAG) 1.0 were published in May 1999. WCAG 1.0 was a first step in defining criteria for web accessibility, focusing mostly on HTML. This iteration of the WCAG featured the compliance levels that we are still acquainted with today: A, AA, and AAA. Conformity to level A would entail complying with only level A success criteria, but conformance to level AAA would mean complying with every success criterion: A, AA, and AAA, making AAA the most thorough.</p><p>WCAG 2.0 was released over a decade later, in December 2008. WCAG 2.0 considered a wide range of technologies and advised developers to make all digital material accessible rather than just HTML-based content. In addition to accounting for a wider range of technologies, WCAG 2.0 developed four often referred to and used principles: perceivable, operable, understandable, and robust. These rules serve as categories for the WCAG success criteria; each success criterion tackles a barrier or barriers to making material visible, operable, comprehensible, and/or resilient for all users.</p><p>Another decade has passed, and WCAG 2.1 has been launched (June 2018). Instead of a major rewrite, as witnessed in the shift from 1.0 to 2.0, WCAG 2.1 adds success criteria to the existing 2.0 rules. This inclusion of new rules, rather than the rebuilding of existing rules, demonstrates the meticulous effort required to develop WCAG 2.0. Many of the new WCAG 2.1 criteria address accessibility restrictions that have become apparent as mobile web surfing has grown in popularity. Then, a working draft of WCAG 2.2 was just released in August 2020. The working draft WCAG 2.2, which is an extension of the existing standards, presently includes new success criteria and changes to one existing success criteria.</p><p>Because the technology we use is continually evolving, the criteria we use to analyze websites for accessibility must be updated to stay consistent. WCAG 2.1 and 2.2 cover weaknesses that have emerged since the introduction of WCAG 2.0 as the norm for online accessibility, but as we saw in the progression of WCAG from 1.0 to 2.0, a thorough rethink of these standards will eventually be required. To meet this requirement, a task group has been created to develop an altogether new set of online accessibility standards. The revised recommendations will be known as “W3C Accessibility Guidelines (WCAG) 3.0.” The World Wide Web Consortium, abbreviated W3C, is “an worldwide community that produces open standards to assure the long-term evolution of the web”. The inclusion of W3C in the official name is significant since it indicates that these criteria will eventually be applied to more than simply web content.</p><p>While the WCAG is improving with many updates and drafts, I must admit that it is a little complicated for me when designing a website or an application for end-users. The most essential aspect is that it is not mandatory; this may be one of the reasons why the WCAG is not widely used nowadays. If it is an act or a legislation that is carried out by the government or country, and it is mandatory and forced to have those accessible features and elements or you’ll get fine for not following the law. I am confident that it would be much greater than what we have now for providing various of accessibility to be able to use for many disabilities users.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ITS395 Week1</title>
-      <link href="/2022/09/05/ITS395Accessibility_FALL2022/Week1_Assignment/"/>
-      <url>/2022/09/05/ITS395Accessibility_FALL2022/Week1_Assignment/</url>
-      
-        <content type="html"><![CDATA[<ul><li>1.1 Describe the importance of web accessibility</li><li>1.2 Define different types of disability</li></ul><p>Week 1 Assignment<br>Web accessibility (also known as Digital Accessibility or Web usability) aims to ensure that anyone has the means to access the media content placed on the Web - regardless of whether people experience physical, mental, or technical barriers that prevent the information posted by the author. This means making content on the Web “accessible” and easy to access and use. Whether it is the general public or people with physical or mental disabilities, they need to have a standardized website to access information easily. Web accessibility is to expand the standardization of the website and to design the website with a more rigorous attitude and conditions so that the content of the website can be “accessible” to users with different levels or needs.</p><p>Web pages created using the Web Accessibility Guidelines, such as WCAG standards and W3C Accessibility Standards, are useful for users with visual, auditory, mobility, and cognitive impairments. It is also useful for users of older, slower computers. In fact, an approachable design is not only helpful for those who have difficulties in their daily lives but also for all others who would benefit from a better interface. The advantages of web accessibility also include increasing the diversity of employment opportunities, shortening the digital gap, expanding social life, relieving psychological stress, etc.</p><p>A developer who designs the website needs to have enough knowledge to be able to comprehend various types of disabilities in order to determine which accessibility is best for disability users. This is one of the most important things that we need to work on. One significant accessibility is the numerous websites that people can access without any problem, including those with hearing or vision impairments or any other disability that affects physical structure or function; accessibility is a general term that includes any impairment or restriction in activities. There could be a number of factors that contributed to the disability, including a person’s age, cognitive impairment from birth, various diseases, and accidents that affected the person with the disability. According to an article, the top 3 causes of disability are heart disease, back or spine issues, and arthritis or rheumatism. These are the ailments and diseases that affect us most frequently.</p><p>Many regions and governments have formed their disability standards available as a guide, listing nearly every type of disability that could possibly affect a person along with a thorough explanation of how to recognize it and the boundaries it places on them. Where people can offer accessible services to people with disabilities. As an example, the United States passed the Americans with Disabilities Act, which outlines the rights to which people with disabilities are entitled, including non-discrimination in employment. These laws/Acts also give them their rights to get what they should get. Additionally, the amendment clarifies what phrases like “major life act” and “substantial limitations” mean.</p><p>In conclusion, the primary objective of accessibility is to enable everyone to use the website, regardless of their language proficiency or type of disability. The website should be accessible to almost everyone. There are many different kinds of disabilities in the world and among us, so some may be difficult to identify while others may be obvious from a person’s physical actions. To learn more, consult a reference list of the various disabilities is a necessary step.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Articles </tag>
-            
-            <tag> Accessibility </tag>
             
         </tags>
       
@@ -742,6 +364,33 @@
     
     
     <entry>
+      <title>Closed Interpreting Accessibility Poster</title>
+      <link href="/2022/07/21/REU/Poster/"/>
+      <url>/2022/07/21/REU/Poster/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/images/REU_CIA/CIA_Poster.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Accessibility Research </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PPT Slides </tag>
+            
+            <tag> REU </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Closed Interpreting Accessibility</title>
       <link href="/2022/07/21/REU/FinalPaper/"/>
       <url>/2022/07/21/REU/FinalPaper/</url>
@@ -760,36 +409,9 @@
             
             <tag> Articles </tag>
             
+            <tag> REU </tag>
+            
             <tag> Web Development </tag>
-            
-            <tag> REU </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Closed Interpreting Accessibility Poster</title>
-      <link href="/2022/07/21/REU/Poster/"/>
-      <url>/2022/07/21/REU/Poster/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/REU_CIA/CIA_Poster.jpg"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Accessibility Research </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> REU </tag>
-            
-            <tag> PPT Slides </tag>
             
         </tags>
       

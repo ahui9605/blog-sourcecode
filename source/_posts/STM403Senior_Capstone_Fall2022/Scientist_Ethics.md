@@ -3,7 +3,7 @@ title: Ethics Case Study Presentation
 date: September 30, 2022
 tags:
   - PPT Slides
-categories: STM403_Fall2022
+categories: STM403
 
 #阅读模式，右下角开启
 readmode: true

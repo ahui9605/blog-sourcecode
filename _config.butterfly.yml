@@ -111,15 +111,15 @@ social:
   fas fa-envelope: mailto:zehui.liu@gallaudet.edu || Email
   fa-brands fa-twitter: https://twitter.com
 
-# avatar:
-#   img: https://www.w3schools.com/howto/img_avatar.png
-#   effect: false # 头像会一直转圈
+avatar:
+  img: /images/Logo/blog_avatar.png
+  effect: false # 头像会一直转圈
 
 #右上角菜单设置
 menu:
   Home: / ||
-  Category: /Categories/ ||
-  Link: /Links/ ||
+  Category: /categories/ ||
+  Link: /link/ ||
 
 # 主页图片
 # index_img: https://file.moyublog.com/d/file/2020-11-17/7523db714dc7fbc67bdd580e42f8c9e2.jpg
@@ -166,7 +166,7 @@ footer:
 error_404:
   enable: true
   subtitle: "page not found, please try again"
-  background: "https://img.freepik.com/premium-vector/error-404-landing-page-with-file-flat-design_249405-162.jpg?w=2000"
+  background: "https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1932.jpg?w=2000"
 
 #版权
 post_copyright:
