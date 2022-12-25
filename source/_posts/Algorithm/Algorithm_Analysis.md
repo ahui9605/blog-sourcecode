@@ -82,13 +82,13 @@ Arrays, Binary Trees, AVL Trees, Hash tables
 <b>Time Complexity Examples</b>, the following code fragment is a loop and will repeat 10 times
 {% codeblock lang:python %}
 for i in range(0, 10, 1):
-    print(i)
+print(i)
 {% endcodeblock %}
 
 The following fragment is a loop will repeat <b>n</b> times
 {% codeblock lang:python %}
 for i in range(0, n, 1):
-    print(i)
+print(i)
 {% endcodeblock %}
 
 {% note modern %}
@@ -107,53 +107,51 @@ We say that the time complexity of this code fragment is _O(n)_
 | 16  | 160                                              | 1600                                  |
 | 32  | 320                                              | 3200                                  |
 
-
 ### More Time Complexity Examples
 
 {% codeblock lang:python %}
 for i in range(0, n, 1):
-    print(i)
+print(i)
 #Time complexity: O(n)
 {% endcodeblock %}
 
 {% codeblock lang:python %}
 for i in range(0, n, 1):
-    print(i)
-    print(2 *i)
+print(i)
+print(2 \*i)
 #Time complexity: O(n)
 {% endcodeblock %}
 
 {% codeblock lang:python %}
 for i in range(10, n, 1):
-    print(i)
+print(i)
 #Time complexity: O(n)
 {% endcodeblock %}
 
 {% codeblock lang:python %}
 for i in range(0, n, 2):
-    print(i)
+print(i)
 #Time complexity: O(n)
 {% endcodeblock %}
 
-
 {% codeblock lang:python %}
-for i in range(0, n*n, 1):
-    print(i)
+for i in range(0, n\*n, 1):
+print(i)
 #Time complexity: O(n^2)
 {% endcodeblock %}
 
 {% codeblock lang:python %}
 for i in range(0, n, 1):
-    for j in range(0, n, 1):
-        print("Hi")
+for j in range(0, n, 1):
+print("Hi")
 #Time complexity: O(n^2)
 {% endcodeblock %}
 
 {% codeblock lang:python %}
 i = 0
 while i < n:
-    print("Hi")
-    i = i+1
+print("Hi")
+i = i+1
 #Time complexity: O(n)
 {% endcodeblock %}
 
@@ -161,8 +159,8 @@ while i < n:
 import math
 i = 0
 while i < math.sqrt(n):
-    print("Hi")
-    i = i+1
+print("Hi")
+i = i+1
 #Time complexity: O(sqrt(n))
 {% endcodeblock %}
 
