@@ -16,30 +16,8 @@ sticky: 1
 copyright: false
 ---
 
-Welcome to my blog, my name is Zehui, and I am a senior at Gallaudet University majoring in IT. This is simply a personal blog where I could share my acquired knowledge and experiences through completing college assignments and discovering many other new things online. I will upload some more articles and useful information periodically. I hope you enjoy it!
+Welcome to my blog, my name is Zehui. Currently I am a senior student at Gallaudet University majoring in IT. This is just a very simple blog where I could share my knowledges and experiences through completing college assignments and discovering many other new things online. I will upload some articles and useful information contents periodically. I hope you enjoy it!
 
-{% tabs test4 %}
-
-<!-- tab Accessibility -->
-
-**tab 名字為第一個 Tab**
-
-<!-- endtab -->
-
-<!-- tab Algorithm -->
-
-**只有圖標 沒有 Tab 名字**
-
-<!-- endtab -->
-
-<!-- tab STM403 -->
-
-**名字+icon**
-
-<!-- endtab -->
-
-{% endtabs %}
-
-You might want to do a quick search with in just few keywords. To do that, find a <b>magnifying-glass icon</b> from the <b>top left corner of the navigation bar</b> then you can find whatever you like.
+You might want to do a quick search with in just few keywords to find your desired information. To do that, find a <b>magnifying-glass icon</b> on the <b>top left corner of the navigation bar.</b>
 
 ![](/images/Logo/search-icon.jpg)
