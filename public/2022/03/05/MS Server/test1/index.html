@@ -1,0 +1,290 @@
+<!DOCTYPE html><html lang="default" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>MS Server Test1 | ahui9605's blog</title><meta name="author" content="Zehui Liu"><meta name="copyright" content="Zehui Liu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="MS Server test1 answers">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MS Server Test1">
+<meta property="og:url" content="http://ahui9605.github.io/2022/03/05/MS%20Server/test1/index.html">
+<meta property="og:site_name" content="ahui9605&#39;s blog">
+<meta property="og:description" content="MS Server test1 answers">
+<meta property="og:locale">
+<meta property="og:image" content="https://partner.microsoft.com/-/media/mssc/mpn/partner/solutions/images/featurecontent-3-column-_500x280_windows_server.ashx?h=280&iar=0&w=500&la=en&hash=8DD80B877119E40C52E4659686958A37">
+<meta property="article:published_time" content="2022-03-05T05:00:00.000Z">
+<meta property="article:modified_time" content="2022-12-26T17:32:43.885Z">
+<meta property="article:author" content="Zehui Liu">
+<meta property="article:tag" content="Exams">
+<meta property="article:tag" content="Code">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://partner.microsoft.com/-/media/mssc/mpn/partner/solutions/images/featurecontent-3-column-_500x280_windows_server.ashx?h=280&iar=0&w=500&la=en&hash=8DD80B877119E40C52E4659686958A37"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://ahui9605.github.io/2022/03/05/MS%20Server/test1/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'MS Server Test1',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-12-26 12:32:43'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/Logo/blog_avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">18</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/gis-map/"><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">ahui9605's blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/gis-map/"><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">MS Server Test1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-03-05T05:00:00.000Z" title="Created 2022-03-05 00:00:00">2022-03-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-12-26T17:32:43.885Z" title="Updated 2022-12-26 12:32:43">2022-12-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/MS-Server/">MS Server</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="MS Server Test1"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h3 id="MAIN"><a href="#MAIN" class="headerlink" title="MAIN"></a>MAIN</h3><p><strong>1. A windows server uses an IP address 36.128.22.234. What is the socket address for the machine’s web server when it allows Secure HTTP connections?</strong><br>The socket is 36.128.22.234:443 where 36.128.22.234 is the IP address and the 443 is the HTTPS port” blue</p>
+<p><strong>2. Which of the following is a private IP address?</strong></p>
+<ul>
+<li>197.28.112.256</li>
+<li>172.22.265.12</li>
+<li>147.123.18.28</li>
+<li><mark class="hl-label blue">10.1.12.213</mark> </li>
+</ul>
+<p><strong>3. What is the main purpose of Dynamic Host Control Protocol (DHCP) on a server? (Explain in your own words giving an example you see when starting and stopping your Google VM. If you copy-paste answers from generic google search no credit is given)</strong></p>
+<p>These features can be added to Microsoft Windows Server through the server roles. On the server roles window, an option shows DHCP Server; according to the description, the aim of using the DHCP is to allow the user to configure, maintain, and distribute temporary IP numbers and other client-side information.”</p>
+<p><strong>4. What is the output of following Power Shell script? Run line by line in Power Shell command line window (NOT Power Shell ISE) and attach a screenshot.</strong></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> c:\users\&lt;yourname&gt;\desktop <span class="comment"># should show like C:\Users\danturthi\desktop&gt;</span></span><br><span class="line"><span class="built_in">new-Item</span> abcd.txt</span><br><span class="line"><span class="built_in">Add-Content</span> abcd.txt “This is the first line”</span><br><span class="line"><span class="built_in">Add-Content</span> abcd.txt <span class="literal">-value</span>(<span class="built_in">get-content</span> abcd.txt)</span><br><span class="line"><span class="built_in">write-output</span> “The file contents are:”</span><br></pre></td></tr></table></figure>
+
+<p><strong>Answer this question - Which of the above commands is unnecessary/Superfluous (can be completely removed) in this particular example to achieve the same output?</strong></p>
+<p><img src="/images/MS/MS-4.png" title="I remove “Add-Content abcd.txt -value(get-content abcd.txt)” because it shows duplicated content in the powershell which is redundant and unnecessary."></p>
+<p><strong>5. In the windows server manager, you want to see the hard disk allocation and the available disk partitions or space. What options do you pick from Windows server manager window? Produce a screenshot on your VM that shows the disks and paste it here.</strong></p>
+<p><img src="/images/MS/MS-5.png" title="Open the Server Manager application, move the pointer to the left sidebar, and look for the File and Storage Services option. Then click the Volumes, available disk partitions and spaces will be display at the center of the screen."></p>
+<p><strong>6. When we do a scan for Best Practices Analyzer (BPA) on Windows Server 2019, what does it indicate for each role configuration?</strong></p>
+<ul>
+<li>A. If the role configuration falls through Microsoft’s control lists</li>
+<li>B. Whether the role configuration violates any existing practices</li>
+<li><mark class="hl-label blue">C. If the role configuration meets Microsoft’s minimum guidelines</mark> </li>
+<li>D. Whether firewall is actually working on the role configuration</li>
+</ul>
+<p><strong>7. A programmer writes code - that is supposed to use a system account, but uses his own account (username and password) to test an application on a development machine. When all development and testing goes well, he transfers the code without any changes to you, the System Administrator (SA). When you deploy the code on production server, the code fails to run and says “incorrect username and password.” As the SA what do you think is the problem and how/what would you advise the programmer to fix the application?</strong></p>
+<p>Before running a test on a production server, applications must modify their username and settings. Even the developer was able to successfully execute the applications on his development PC.</p>
+<p><strong>8. Copy the following code to Power Shell ISE into file okay.ps1, save it and run it. Put your name below for correct path for your VM and Take a screen shot and enclose results of the script here and answer the following questions</strong></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> c:\users\&lt;yourname&gt;\desktop <span class="comment"># should be like C:\Users\danturthi\desktop&gt;</span></span><br><span class="line"><span class="built_in">Add-Content</span> myFile.txt <span class="string">&quot;`nName `tQ#1 `tT#1 `tGrade&quot;</span></span><br><span class="line"><span class="built_in">Add-Content</span> myFile.txt <span class="string">&quot;`nDavid `t45 `t110 `t155&quot;</span></span><br><span class="line"><span class="built_in">Add-Content</span> myFile.txt <span class="string">&quot;`nMelissa `t40 `t120 `t160&quot;</span></span><br><span class="line"><span class="built_in">Add-Content</span> myFile.txt <span class="string">&quot;`nRick `t50 `t90 `t140&quot;</span></span><br><span class="line"><span class="built_in">Get-Content</span> myFile.txt | <span class="built_in">select-string</span> <span class="string">&#x27;a&#x27;</span>| <span class="built_in">write-output</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/MS/MS-8.png"></p>
+<ul>
+<li><p><strong>(i) Explain what the “ select-string ‘a’ “ is doing</strong><br>select-string ‘a’ (Select all the string values that included the letter ”a” from the file named “myFile.txt”) |write-output (output the selected string values and display on the screen from the powershell)</p>
+</li>
+<li><p><strong>(ii) What are the characters “ <code>t “ and “ </code>n “ doing in the power shell script?</strong><br>“<code>t“ means horizontal tab and “</code>n” means make a new line.</p>
+</li>
+<li><p><strong>(iii) What happens if you remove all the “ `n “ characters from power shell script?</strong><br>Powershell does not add any new lines to the output.</p>
+</li>
+</ul>
+<p><img src="/images/MS/MS-8_2.png"></p>
+<div class="note modern warning simple"><p>NOTE: The character before “n” and “t” is the backtick (next to numeric 1)</p>
+</div>
+
+<p><strong>9. On VM you open the command prompt in Power Shell window and execute the following command (If IIS is not installed, go to control panel -&gt; programs and features and -&gt; install Internet Information Server)</strong></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">get-nettcpconnection</span> <span class="literal">-Localport</span> <span class="number">56</span></span><br><span class="line">and you notice you are getting an error. Replace the port <span class="number">56</span> with <span class="number">80</span> and run again.</span><br><span class="line">Now run this command: netstat <span class="literal">-an</span> | <span class="built_in">select-string</span> <span class="number">80</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>What do you conclude from the results of these three commands about ports 56 and 80? (Attach a screen shot)</strong></p>
+<p>After installed the IIS in the VM, I am unable to get the TCP connection and view its property when I attempt the connection of localport 56 because this port could not be found. However, I am able to see the tcp connection of port 80, and its status is listening, also some established tcp connections.</p>
+<p><img src="/images/MS/MS-9.png"></p>
+<p><strong>10. Stateful Packet Inspection (SPI) of a firewall is used for examining packets as they move in and out of a network.</strong><br><strong>What is the main focus of SPI?</strong><br>SPI mainly focused on connections</p>
+<p><strong>What are rules SPI implements for internal and external connections?</strong><br>Internally connection allow by default and externally connection prohibit by default.</p>
+<ol start="11">
+<li>From the VM, choose google SDK command line interpreter and execute the following commands:</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gsutil du c:</span><br><span class="line">gsutil du gs://&lt;your bucketname&gt;</span><br><span class="line">gsutil du</span><br></pre></td></tr></table></figure>
+
+<p><strong>Take a screen shot of the results (individually or together)and explain what it is displaying. NOTE: These commands may not work on Power Shell or DOS window</strong></p>
+<p><img src="/images/MS/MS-11.png"></p>
+<p><strong>12. What three kinds of rules can you set up with Windows Defender Firewall on the Windows Server 2019 (Google Virtual Machine)?</strong></p>
+<ul>
+<li>(1) Inbound Rules</li>
+<li>(2) Outbound Rules</li>
+<li>(3) Connection Security Rules</li>
+</ul>
+<p><strong>13. Open Google VM server in remote desktop, choose run and enter the following – Sigverif in the run window. When it shows the actual application, run it and click “Start” on the application. When it is finished, attach the resulting log file contents to this test (add another page, if required)</strong></p>
+<p><img src="/images/MS/MS-13.png" title="Here is the screenshot of the log file after finishing the scan."></p>
+<p><strong>14. When a firewall examines packets as a part of stateful packet inspection logic, what are the two main categories a packet state can fall into?</strong></p>
+<ul>
+<li>A. Packets opening connections and packets closing connections for data move</li>
+<li>B. Packets trying to send data and packets trying to receive data from connections</li>
+<li><mark class="hl-label blue">C. Packets trying to open connections and packets not trying to open connections</mark> </li>
+<li><mark class="hl-label blue">D. Packets that are static with same IP and packets that are dynamic with variable IP</mark> </li>
+</ul>
+<p><strong>15. Your Network/Server has a border firewall to block/deny any suspicious attack packets. Besides blocking the packets, what must the firewall do for the system administrator?</strong></p>
+<p>Firewall not just only process the regular check to block packages, but also can drop and update logs, caution the SA if there is any suspicious action appear</p>
+<h3 id="BONUS"><a href="#BONUS" class="headerlink" title="BONUS"></a>BONUS</h3><p><strong>16. Your firewall has a 276 rules you created in addition to the default rule to examine and allow or deny packets. As a System Administrator you are given the job of arranging these access control rules in a numerical list known as Access Control List (ACL).</strong></p>
+<p><strong>A. Which rule will be your first rule and which rule will be your last rule in the ACL? (Just mention how you pick the first rule and last rule and on what criteria).</strong><br>The first rule will be creating a set of rules that the firewall may use to monitor various packages as the priority. The default rule usually will be the last execution in the rules list.</p>
+<p><strong>B. What happens if you swap (exchange) the first rule to the last?</strong><br>Swapping the rule to the default rule first may not be a smart idea since if the default rule is successful, the rest of the rules will not be executed.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://ahui9605.github.io">Zehui Liu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://ahui9605.github.io/">https://ahui9605.github.io/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Exams/">Exams</a><a class="post-meta__tags" href="/tags/Code/">Code</a></div><div class="post_share"><div class="social-share" data-image="https://partner.microsoft.com/-/media/mssc/mpn/partner/solutions/images/featurecontent-3-column-_500x280_windows_server.ashx?h=280&amp;iar=0&amp;w=500&amp;la=en&amp;hash=8DD80B877119E40C52E4659686958A37" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#MAIN"><span class="toc-text">MAIN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#BONUS"><span class="toc-text">BONUS</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Zehui Liu</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a href="#">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
