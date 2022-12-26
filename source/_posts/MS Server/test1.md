@@ -19,7 +19,7 @@ copyright_url: https://ahui9605.github.io/
 description: MS Server test1 answers
 ---
 
-### MAIM
+### MAIN
 
 **1. A windows server uses an IP address 36.128.22.234. What is the socket address for the machine’s web server when it allows Secure HTTP connections?**
 The socket is 36.128.22.234:443 where 36.128.22.234 is the IP address and the 443 is the HTTPS port" blue
