@@ -119,6 +119,7 @@ avatar:
 menu:
   Home: / ||
   Category: /categories/ ||
+  Gallery: /gis-map/ ||
   Link: /link/ ||
 
 # 主页图片
